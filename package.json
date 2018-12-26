@@ -1,24 +1,14 @@
 {
   "name": "server-watcher",
   "version": "0.0.0",
-  "description": "web watcher for server ",
-  "main": "index.js",
-  "dependencies": {
-    "dotenv": "^6.2.0",
-    "express": "^4.16.4"
-  },
-  "devDependencies": {},
+  "private": true,
   "scripts": {
-    "test": "node index.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vatapi-minion/server-watcher.git"
-  },
-  "author": "yashkumarverma",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vatapi-minion/server-watcher/issues"
-  },
-  "homepage": "https://github.com/vatapi-minion/server-watcher#readme"
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "morgan": "~1.9.0"
+  }
 }

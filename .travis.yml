@@ -9,7 +9,8 @@ cache:
   directories:
     - $HOME/.npm
 
-# before_script:
+before_script:
+- npm install
 
 script:
-- node index.js
+- node app.js
